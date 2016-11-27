@@ -1,4 +1,6 @@
 # webappforpatients
+Before running the webapp do the following configuration:
+
 Simply create a mysql database with the following configuration in wamp:
 $servername = "localhost";
 $username = "root";
