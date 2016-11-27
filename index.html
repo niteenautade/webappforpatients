@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web App for Patients</title>
+</head>
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<body>
+	<div class="container">
+		<h1 class="text-center">Web App for Patients</h1>
+		<div class="tab-content fade in active">
+			<ul class="nav nav-tabs">
+				<li><a href="index.html">Screen 1</a></li>
+				<li><a href="screen2.html">Screen 2</a></li>
+			</ul>
+		
+			<br>
+			<form name="form" action="post.php" method="post">
+					<label>First Name:</label>
+					<input type="text" class="form-control" name="fname" id="fname">
+					<label>Last Name:</label>
+					<input type="text" class="form-control" name="lname" id="lname">
+					<label>Age:</label>
+					<input type="number" class="form-control" name="age" id="age">
+					<label>Date of Birth:</label>
+					<input type="date" class="form-control" name="dob" id="dob" placeholder="YYYY-MM-DD">
+					<label>Gender:</label>
+					<select class="form-control" name="gender" id="gender">
+					  <option>Male</option>
+					  <option>Female</option>
+					</select>
+					<label>Phone:</label>
+					<input type="number" class="form-control" name="phone" id="phone">
+					<label>Free Text Information:</label>
+					<textarea name="fti" id="fti" class="form-control" rows="5" cols="40"></textarea>
+					<br>
+					<input type="submit" value="Submit" class="btn btn-default">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
